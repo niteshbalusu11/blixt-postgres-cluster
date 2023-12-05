@@ -1,0 +1,16 @@
+{
+  "name": "blixt-postgres-cluster",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/pg": "^8.10.9",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "pg": "^8.11.3"
+  }
+}
